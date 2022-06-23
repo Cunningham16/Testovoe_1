@@ -423,9 +423,22 @@ nav li {
   font-size: 0.63vw;
   line-height: 0.73vw;
   margin: 6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .contacts b {
   font-weight: 700;
+}
+.contacts p::before {
+  content: "";
+  background: white;
+  display: inline-block;
+  width: 0.3vw;
+  height: 0.3vw;
 }
 .contacts h3 {
   font-size: 1.24vw;

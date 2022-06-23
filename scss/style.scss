@@ -353,9 +353,19 @@ nav{
 		font-size: 0.63vw;
 		line-height: 0.73vw;
 		margin: 6px;
+		display: flex;
+		align-items: center;
 	}
 	b{
 		font-weight: 700;
+	}
+
+	p::before{
+		content: '';
+		background: white;
+		display: inline-block;
+		width: 0.3vw;
+		height: 0.3vw;
 	}
 
 	h3{
